@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+  
+</head>
+<body>
+  <div class="d-flex flex-column flex-lg-row">
+    <!-- Mobile Header -->
+    <nav class="mobile-header d-lg-none w-100 p-3 d-flex justify-content-between align-items-center">
+		<div class="d-flex align-items-center">
+		  <img src="images/profile-pic.png" alt="Profile" class="profile-pic rounded-circle me-2" style="width: 50px; height: 50px;">
+		  <h3 class="m-0">Avinesh Gupta</h3>
+		</div>
+		<button class="hamburger-menu btn" aria-expanded="false">
+		  <div class="bar"></div>
+		  <div class="bar"></div>
+		  <div class="bar"></div>
+		</button>
+	  </nav>
+	  <div class="mobile-menu">
+		<ul class="nav flex-column p-3">
+		  <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+		  <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+		  <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+		  <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+	  </div>
+
+    <!-- Sidebar for Desktop -->
+    <nav class="sidebar bg-light d-none d-lg-block">
+      <div class="text-center mt-4">
+        <img src="images/profile-pic.png" alt="Profile" class="profile-pic rounded-circle" style="width: 120px; height: 120px;">
+        <h3 class="profile-name mt-3">Avinesh Gupta</h3>
+      </div>
+      <ul class="nav flex-column mt-4">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <!-- <li class="nav-item"><a href="#services" class="nav-link">Services</a></li> -->
+        <li class="nav-item"><a href="#works" class="nav-link">Works</a></li>
+        <!-- <li class="nav-item"><a href="#blogs" class="nav-link">Blogs</a></li> -->
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="social-icons mt-4">
+        <a href="#" class="me-3"><i class="fab fa-behance"></i></a>
+        <a href="#" class="me-3"><i class="fab fa-dribbble"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <footer class="mt-4">
+        <p>Copyright &copy;2025 Avinesh Gupta.<br>All rights reserved.</p>
+      </footer>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content w-100 p-4">
+      <section id="home" class="intro">
+        <div class="custom-container">
+			<section class="intro">
+			  <h1>Hi, I’m <span class="highlight">Avinesh!</span></h1>
+			  <h2>Creative Designer Based in <span class="highlight">Florida</span></h2>
+			  <p>I’m a Florida-based web designer & front-end developer with <span class="highlight">10+ years</span> of experience.</p>
+			  <div class="cta-buttons">
+				<a href="#" class="btn primary">Got a project?</a>
+				<a href="#" class="btn secondary">Let’s talk</a>
+			  </div>
+			  <div class="contact-info">
+				<p><a href="tel:+4733378901"><strong>+47 333 78 901</strong></a></p>
+				<p><a href="mailto:support@elisc.com">support@elisc.com</a></p>
+				<p>Ave Street Avenue, New York</p>
+			  </div>
+			</section>
+			<section class="image-section">
+			  <img src="images/profile-pic.png" alt="Creative Designer">
+			</section>
+		  </div>
+      </section>
+
+      <section id="about" class="about-section mt-5">
+		<div class="row row-bg-w">
+		  <!-- Left Column -->
+		  <div class="col-lg-12">
+			<div class="row">
+				<div class="col-lg-4">
+					<p class="subtitle">- NICE TO MEET YOU!</p>
+					<h1 class="main-title">Avinesh Gupta</h1>
+					<h3 class="role">Web Designer & Developer</h3>
+					<a href="#" class="btn primary">Download CV</a>
+				</div>
+				<div class="col-lg-8">
+					<p>Hello there! My name is <strong class="orange">Avinesh Gupta</strong>. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
+					<p>With 20 years of experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+					<div class="details row">
+						<div class="col-6 text-left text-start">
+						  <p><strong>MAIL</strong></p>
+						  <p><a href="mailto:info@elisc.com">info@elisc.com</a></p>
+						</div>
+						<div class="col-6 text-left text-end">
+						  <p><strong>CALL</strong></p>
+						  <p><a href="tel:+987987654321">(+987) 987 654 321</a></p>
+						</div>
+					  </div>
+				</div>
+			</div>
+			
+		  </div>
+	  
+		  <!-- Right Column -->
+		  <div class="col-lg-12">
+			<div class="stats d-flex justify-content-between">
+			  <div class="stat-box" style="background-color: #d3f4ed; color: #697592;">
+				<h2>10+</h2>
+				<p>YEARS OF EXPERIENCE</p>
+			  </div>
+			  <div class="stat-box" style="background-color: #fde8d5; color: #697592;">
+				<h2>50+</h2>
+				<p>PROJECT COMPLETED</p>
+			  </div>
+			  <div class="stat-box" style="background-color: #e3fae0; color: #697592;">
+				<h2>30+</h2>
+				<p>HAPPY CLIENTS</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<div class="row row-2 mt-5">
+				<section class="experience-section">
+				  <p class="subtitle">- EXPERIENCE</p>
+				  <h1 class="title">Everything about me!</h1>
+			
+				  <div class="row g-4 mt-4">
+					<div class="col-md-6">
+					  <div class="card experience-card p-4">
+						<div class="row">
+							<div class="text-start col-lg-8">
+								<p class="timeframe">- 2018 - Present</p>
+								<h2 class="position">Web Developer</h2>
+							</div>
+							<div class="text-end col-lg-4">
+								<p class="company">- Envato</p>
+							</div>
+						</div>
+						<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					  </div>
+					</div>
+					<div class="col-md-6">
+						<div class="card experience-card p-4">
+						  <div class="row">
+							  <div class="text-start col-lg-8">
+								  <p class="timeframe">- 2018 - Present</p>
+								  <h2 class="position">Web Developer</h2>
+							  </div>
+							  <div class="text-end col-lg-4">
+								  <p class="company">- Envato</p>
+							  </div>
+						  </div>
+						  <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					  </div>
+					  <div class="col-md-6">
+						<div class="card experience-card p-4">
+						  <div class="row">
+							  <div class="text-start col-lg-8">
+								  <p class="timeframe">- 2018 - Present</p>
+								  <h2 class="position">Web Developer</h2>
+							  </div>
+							  <div class="text-end col-lg-4">
+								  <p class="company">- Envato</p>
+							  </div>
+						  </div>
+						  <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					  </div>
+					  <div class="col-md-6">
+						<div class="card experience-card p-4">
+						  <div class="row">
+							  <div class="text-start col-lg-8">
+								  <p class="timeframe">- 2018 - Present</p>
+								  <h2 class="position">Web Developer</h2>
+							  </div>
+							  <div class="text-end col-lg-4">
+								  <p class="company">- Envato</p>
+							  </div>
+						  </div>
+						  <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					  </div>
+				  </div>
+				</section>
+		</div>
+	  </section>
+
+      <!-- <section id="services" class="about mt-5">
+        <h2>- Nice to meet you!</h2>
+        <h1>Robert Elisc</h1>
+        <p class="role">Web Designer &amp; Developer</p>
+        <p class="intro">With 20 years of experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+        <div class="stats row text-center mt-4">
+          <div class="col-md-4">
+            <h3 class="highlight">10+</h3>
+            <p>Years of Experience</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="highlight">50+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="highlight">30+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+      </section> -->
+
+      <section id="works" class="experience mt-5">
+		<row class="project-cards">
+			<p class="subtitle">- PROJECTS</p>
+			<h1 class="title">Recent completed work</h1>
+	  
+			<div class="row g-4 mt-4">
+			  <div class="col-md-3 col-sm-6">
+				<div class="card">
+				  <img src="images/1.png" class="card-img-top" alt="Project 1">
+				  <div class="card-body">
+					<p class="card-category">UI DESIGN</p>
+					<h5 class="card-title">Firogo Majestic Co Ltd.</h5>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="images/1.png" class="card-img-top" alt="Project 1">
+				  <div class="card-body">
+					<p class="card-category">UI DESIGN</p>
+					<h5 class="card-title">Firogo Majestic Co Ltd.</h5>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="images/1.png" class="card-img-top" alt="Project 1">
+				  <div class="card-body">
+					<p class="card-category">UI DESIGN</p>
+					<h5 class="card-title">Firogo Majestic Co Ltd.</h5>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="images/1.png" class="card-img-top" alt="Project 1">
+				  <div class="card-body">
+					<p class="card-category">UI DESIGN</p>
+					<h5 class="card-title">Firogo Majestic Co Ltd.</h5>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="images/1.png" class="card-img-top" alt="Project 1">
+				  <div class="card-body">
+					<p class="card-category">UI DESIGN</p>
+					<h5 class="card-title">Firogo Majestic Co Ltd.</h5>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			</row>
+		  </section>
+
+		  <section id="contact" class="get-in-touch mt-5">
+			<p class="subtitle">- LET'S CONNECT</p>
+			<h1 class="title">Get in touch</h1>
+			<p class="description">I'm currently available to take on new projects, so feel free to send me a message about anything that you want to run past me.</p>
+			<ul class="contact-details">
+			  <li><strong>(+987) 987 654 321</strong></li>
+			  <li><a href="mailto:info@elisc.com">info@elisc.com</a></li>
+			  <li><a href="#">32 Avenue Florida, USA</a></li>
+			</ul>
+		  </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+   // Add active class on click and remove from previous item (Desktop and Mobile)
+  document.querySelectorAll('.sidebar .nav-link, .mobile-menu .nav-link').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      
+      // Remove active class from all menu items
+      document.querySelectorAll('.nav-link').forEach(item => item.classList.remove('active'));
+
+      // Add active class to clicked menu item
+      link.classList.add('active');
+
+      // For mobile view: close the hamburger menu
+      const mobileMenu = document.querySelector('.mobile-menu');
+      const hamburger = document.querySelector('.hamburger-menu');
+      if (mobileMenu.classList.contains('show')) {
+        mobileMenu.classList.remove('show');
+        hamburger.classList.remove('active');
+      }
+      
+      // Scroll to the target section
+      const targetId = link.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        const mainContent = document.querySelector('main');
+        const offsetTop = targetElement.offsetTop - mainContent.offsetTop;
+        mainContent.scrollTo({ top: offsetTop, behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Toggle hamburger menu
+  const hamburger = document.querySelector('.hamburger-menu');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    mobileMenu.classList.toggle('show');
+  });
+
+  // Close mobile menu on resize to desktop
+  window.addEventListener('resize', () => {
+    if (window.innerWidth >= 992 && mobileMenu.classList.contains('show')) {
+      mobileMenu.classList.remove('show');
+      hamburger.classList.remove('active');
+    }
+  });
+  
+  </script>
+</body>
+</html>
